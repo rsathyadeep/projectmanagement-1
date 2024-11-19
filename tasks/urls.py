@@ -13,4 +13,7 @@ urlpatterns = [
     path('edit/<int:pk>/', edit_project, name='edit_project'),
     # path('api/tasks/', TaskList.as_view(), name='task_list'),
     # path('projects/<int:project_id>/tasks/<int:task_id>/notes/', create_note, name='create_note'),
+
+    # path()
 ]
+

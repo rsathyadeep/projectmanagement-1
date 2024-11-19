@@ -5,6 +5,7 @@ class ProjectSerializer(serializers.ModelSerializer):
     class Meta:
         model = Project
         fields = '__all__'
+        http_method_names = ['get', 'post', 'put', 'patch', 'delete']
 
 class TaskSerializer(serializers.ModelSerializer):
     class Meta:

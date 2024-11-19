@@ -13,7 +13,8 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 from pathlib import Path
 import os
 import django_heroku
-# import decouple import config
+# import django_extensions as ex
+import decouple import config
 from django import template
 from django.contrib import staticfiles
 

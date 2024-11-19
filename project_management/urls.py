@@ -30,7 +30,6 @@ from tasks.urls import TaskList
 router = DefaultRouter()
 router.register(r'projects', ProjectViewSet)
 router.register(r'tasks', TaskViewSet)
-
 router.register('events', EventViewSet, basename='event')
 router.register('notes', NoteViewSet, basename='note')
 
