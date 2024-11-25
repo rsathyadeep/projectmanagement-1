@@ -13,6 +13,7 @@ djangorestframework==3.15.2
 dnspython==2.7.0
 docutils==0.21.2
 Flask==3.0.3
+gunicorn==23.0.0
 include==0.2.2
 itsdangerous==2.2.0
 Jinja2==3.1.4
@@ -22,6 +23,7 @@ Markdown==3.7
 MarkupSafe==3.0.2
 mock==5.1.0
 note==0.5.2
+packaging==24.2
 psycopg2==2.9.10
 pymongo==4.10.1
 python-daemon==3.1.0
