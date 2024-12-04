@@ -22,7 +22,7 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from events.views import EventViewSet
 from notes.views import NoteViewSet
-from tasks import views
+
 from tasks.api_views import ProjectViewSet, TaskViewSet
 from tasks.urls import TaskList
 

@@ -1,6 +1,5 @@
 from django.contrib.auth import login
 from django.shortcuts import render, redirect
-
 from .forms import ProjectForm, TaskForm
 from .models import User, Project, Task
 from django.contrib.auth.decorators import login_required, login_not_required
