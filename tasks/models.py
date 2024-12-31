@@ -30,7 +30,7 @@ class Task(models.Model):
         ('in_progress', 'In Progress'),
         ('done', 'Done')
     ])
-    due_date = models.DateField(null=True, blank=True)
+    due_date = models.DateField(null=True, blank=True, default=datetime.date.today)
     assigned_to = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
     parent_task = models.ForeignKey('task', on_delete=models.SET_NULL, null=True, blank=True)

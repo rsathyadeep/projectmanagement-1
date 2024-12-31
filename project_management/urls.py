@@ -37,11 +37,11 @@ router.register('notes', NoteViewSet, basename='note')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('tasks/', include('tasks.urls')),
+    # path('tasks/', include('tasks.urls')),
     # path('api/tasks/', TaskList.as_view(), name='task_list'),
     # path('api/', views.TaskList.as_view(), name='task_list'),
-    path('events/', include('events.urls')),
-    path('notes/', include('notes.urls')),
+    # path('events/', include('events.urls')),
+    # path('notes/', include('notes.urls')),
 
 # path('logout/', auth_views.LogoutView.as_view(), name='logout'),
     path('api/', include(router.urls)),
